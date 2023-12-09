@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+/*
+GLOBAL STYLES
+*/
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    margin-left: 250px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid #eaf7fd;
+    margin: 8px auto;
+    border-radius: 5px;
+    width: 95%;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+input {
+    height: 45px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding-left: 40px;
+    background-image: url('../images/icon-search.svg');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 2px solid #a4cbda ;
+}
+
+/*
+COLOURS
+*/
+body {
+    background-image: linear-gradient(to left top, #303b41, #333f46, #36444b, #394850, #3c4d55);
+
+}
+
+h2, h3, h4, li, a, footer {
+    color: #eaf7fd;
+}
+
+li:hover {
+    background-color: #eaf7fd;
+}
+
+input {
+    background-color: #eaf7fd;
+}
+
+/*
+TYPOGRAPHY
+*/
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+li:hover {
+    color: #303b41;
+}
+
+h2, h4 {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+footer {
+    font-size: 18px;
+}
+/*
+SIDEBAR
+*/
+.side-bar {
+    padding: 0;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/*
+GIF
+*/
+.gif-container {
+    height: auto;
+    width: 35%;
+} 
+
+img {
+    border-radius: 5%;
+    border: 1px solid #a8cfde;
+    margin-left: 100px;
+}
+
+/*
+TIME/DATE/searchbar
+*/
+.time-container {
+    text-align: center;
+}
+
+.time-container h2 {
+    margin-bottom: 0;
+}
+
+/*
+FOOTER
+*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
