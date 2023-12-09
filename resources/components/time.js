@@ -5,16 +5,26 @@ const DATE = new Date();
 
 
 function updateTime() {
-    const currentTime = `${DATE.getHours()}:${DATE.getMinutes()}:${DATE.getSeconds()}`;
+    const hours = DATE.getHours();
+    const minutes = DATE.getMinutes();
+    const seconds = DATE.getSeconds();
+    if (hours <= 9) {
+        hours = `0${hours}`;
+    } else if (minutes <= 9) {
+        minutes = `0${minutes}`;   
+    } else if (seconds <= 9) {
+        seconds = `0${seconds}`;
+    }
+    const currentTime = `${hours}:${minutes}:${seconds}`;
     TIME_DISPLAY.innerHTML = currentTime;
 }
 
 function updateDate() {
     let currentDay = DATE.getDate();
+    let currentMonth = DATE.getMonth();
     if (currentDay <= 9) {
         currentDay = `0${currentDay}`;
     }
-    let currentMonth = DATE.getMonth();
     if (currentMonth <= 9) {
         currentMonth = `0${currentMonth}`;
     }
