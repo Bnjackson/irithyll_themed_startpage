@@ -1,0 +1,93 @@
+[
+    {
+        "id": "gmail",
+        "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+        "id": "github",
+        "link": "https://github.com/"
+    },
+    {
+        "id": "leetcode",
+        "link": "https://leetcode.com/"
+    },
+    {
+        "id": "codewars",
+        "link": "https://www.codewars.com/dashboard"
+    },
+    {
+        "id": "frontendmentor",
+        "link": "https://www.frontendmentor.io/"
+    },
+    {
+        "id": "js fiddle",
+        "link": "https://jsfiddle.net/"
+    },
+    {
+        "id": "google docs",
+        "link": "https://www.google.co.uk/docs/about/"
+    },    {
+        "id": "mdn docs",
+        "link": "https://developer.mozilla.org/en-US/"
+    },     
+    {
+        "id": "learn x in y minutes",
+        "link": "https://learnxinyminutes.com/"
+    },    
+    {
+        "id": "devdocs",
+        "link": "https://devdocs.io/"
+    },
+    {
+        "id": "javascript.info",
+        "link": "https://javascript.info/"
+    },
+    {
+        "id": "image color picker",
+        "link": "https://imagecolorpicker.com/en"
+    },    
+    {
+        "id": "google fonts",
+        "link": "https://fonts.google.com/"
+    },    
+    {
+        "id": "figma",
+        "link": "https://www.figma.com/"
+    },    
+    {
+        "id": "colorhunt",
+        "link": "https://colorhunt.co/"
+    },    
+    {
+        "id": "flaticon",
+        "link": "https://www.flaticon.com/"
+    },
+    {
+        "id": "youtube",
+        "link": "https://www.youtube.com"
+    },    
+    {
+        "id": "amazon",
+        "link": "https://www.amazon.co.uk/"
+    },    
+    {
+        "id": "reddit",
+        "link": "reddit.com"
+    },    
+    {
+        "id": "netflix",
+        "link": "https://www.netflix.com"
+    },    
+    {
+        "id": "disney+",
+        "link": "https://www.disneyplus.com/"
+    },    
+    {
+        "id": "the athletic",
+        "link": "https://theathletic.com/uk/"
+    },    
+    {
+        "id": "hacker news ",
+        "link": "https://news.ycombinator.com/"
+    }
+]
