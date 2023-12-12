@@ -1,10 +1,11 @@
 const TIME_DISPLAY = document.querySelector('#timeDisplay');
 const DATE_DISPLAY = document.querySelector('#dateDisplay');
 const MESSAGE_DISPLAY = document.querySelector('#messageDisplay');
-const DATE = new Date();
+let DATE = new Date();
 
 
 function updateTime() {
+    DATE = new Date();
     let hours = DATE.getHours();
     let minutes = DATE.getMinutes();
     let seconds = DATE.getSeconds();
@@ -20,8 +21,9 @@ function updateTime() {
 }
 
 function updateDate() {
+    DATE = new Date();
     let currentDay = DATE.getDate();
-    let currentMonth = DATE.getMonth();
+    let currentMonth = DATE.getMonth() + 1;
     if (currentDay <= 9) {
         currentDay = `0${currentDay}`;
     }
@@ -33,6 +35,7 @@ function updateDate() {
 }
 
 function updateMessage() {
+    DATE = new Date();
     const messages = ['Good Morning', 'Good Afternoon', 'Good Evening', 'Good Night'];
     if (DATE.getHours() < 12) {
         MESSAGE_DISPLAY.innerHTML = messages[0];
