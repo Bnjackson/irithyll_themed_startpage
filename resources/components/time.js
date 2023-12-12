@@ -5,9 +5,9 @@ const DATE = new Date();
 
 
 function updateTime() {
-    const hours = DATE.getHours();
-    const minutes = DATE.getMinutes();
-    const seconds = DATE.getSeconds();
+    let hours = DATE.getHours();
+    let minutes = DATE.getMinutes();
+    let seconds = DATE.getSeconds();
     if (hours <= 9) {
         hours = `0${hours}`;
     } else if (minutes <= 9) {
