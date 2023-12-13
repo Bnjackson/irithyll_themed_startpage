@@ -1,0 +1,21 @@
+{
+  "name": "irithyll_themed_startpage",
+  "version": "1.0.0",
+  "description": "Simple startpage themed around Irithyll of The Boreal Valley from Dark Souls 3.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bnjackson/irithyll_themed_startpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bnjackson/irithyll_themed_startpage/issues"
+  },
+  "homepage": "https://github.com/Bnjackson/irithyll_themed_startpage#readme"
+}
