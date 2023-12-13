@@ -10,25 +10,27 @@
     </head>
     <body>
         <div class="side-bar">
+            <ul id="linksContainer">
+            </ul>
         </div>
         <main>
-            <div class="gif-container">
-                <img src="./resources/images/irithyll.gif" alt="Animated image of Irithyll of The Boreal Valley from the Game Dark Souls 3">
-            </div>
-            <div class="time-searchbar-container">
+            <div>
                 <div class="time-container">
-                    <h2 id="timeDisplay">13:33:33</h2>
-                    <h3 id="dateDisplay">08/12/2023</h3>
-                    <h3 id="timeMessage">Good Afternoon</h3>
+                    <h2 id="timeDisplay"></h2>
+                    <h3 id="dateDisplay"></h3>
+                    <h4 id="messageDisplay"></h4>
                 </div>
                 <div class="searchbar-container">
                     <input type="text" id="searchInput" placeholder="Search Google">
                 </div>
             </div>
+            <div class="gif-container">
+                <img src="./resources/images/irithyll.gif" alt="Animated image of Irithyll of The Boreal Valley from the Game Dark Souls 3">
+            </div>
         </main>
         <footer>
-            <div>By <a href="https://github.com/Bnjackson">Benjamin Jackson</a> 2023</div>
+            <div>By <a href="https://github.com/Bnjackson">Benjamin Jackson</a></div>
         </footer>
     </body>
-    <script src="/main.js"></script>
+    <script type="module" src="/main.js"></script>
 </html>
