@@ -117,11 +117,29 @@ footer {
 SIDEBAR
 */
 .side-bar {
-    padding: 0;
     width: 250px;
     position: fixed;
     height: 100%;
     overflow: auto;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+.side-bar::-webkit-scrollbar {
+    width: 0.5em;
+}
+  
+.side-bar:-webkit-scrollbar-thumb {
+    background-color: #a4cbda;
+}
+
+/* For Firefox */
+
+.side-bar:-moz-scrollbar {
+    width: 0.5em;
+}
+  
+.side-bar:-moz-scrollbar-thumb {
+    background-color: #a4cbda;
 }
 
 /*
